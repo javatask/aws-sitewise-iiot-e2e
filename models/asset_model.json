@@ -1,0 +1,508 @@
+{
+    "assetModels": [
+        {
+            "assetModelId": "87689da0-6b15-4f35-affa-5a26e0f1201f",
+            "assetModelName": "hios-port",
+            "assetModelProperties": [
+                {
+                    "id": "375841b4-a120-4847-9ba2-495a10586c46",
+                    "name": "Utilization",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "43bfd0e7-d493-42df-a089-fd0c8225a3c4",
+                    "name": "Auto power down",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "8fe569fe-b622-4974-ab3b-7c19b2a5872e",
+                    "name": "Flow control",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "ee0b1d47-1c7d-4162-9e6f-be98f513e65b",
+                    "name": "Manual cable crossing",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "af05bfa3-6b77-4fbe-b097-e867dc1e4ade",
+                    "name": "MTU",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "e2693674-855f-4b6f-997c-c9185bd33574",
+                    "name": "Port on",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "87c4b62d-9d70-48d2-8cd0-ac8e2c31d901",
+                    "name": "Port status",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "7702a813-6e0f-45cf-9e80-c58f439ad7ec",
+                    "name": "Power state",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "9487b120-9a96-4d22-a1c1-afbf3105dc3d",
+                    "name": "Send trap",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "cb95f8c3-1619-4079-9b16-c5224e3a9795",
+                    "name": "State",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "bf768fef-15e4-49ff-a87a-30e2ee29483f",
+                    "name": "STP port state",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "7b620f5b-a048-4935-aabf-28c24e2aed8e",
+                    "name": "Detected collision",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "1b77557b-a8fc-435f-9053-ecf9964b0c20",
+                    "name": "Detected CRC errors",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "b248264e-a578-4bc1-8d45-a8dc10def2f4",
+                    "name": "Received broadcast packets",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "5ade7b87-44c2-43fb-b923-e069aff19d4b",
+                    "name": "Received discards",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "d23d480c-fec1-4474-8e53-aae8a2fe19fb",
+                    "name": "Received fragments",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "c981b672-e967-4cb9-8425-540bdc6b6ad0",
+                    "name": "Received multicast packets",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "c0a2a170-51f4-4a50-862d-ab71f729fb55",
+                    "name": "Received unicast packets",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "ca7d5de5-7c8d-4468-ac6c-8591f7e72208",
+                    "name": "Transmitted broadcast packets",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "9fd82e6b-7d5f-4635-8b12-3cebf4d8a7fc",
+                    "name": "Transmitted discards",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "34837a0a-765c-4ca2-b771-9fe5b369d682",
+                    "name": "Transmitted multicast Packets",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "32ee1236-4df7-436f-99ea-96a0619c7c4c",
+                    "name": "Transmitted octets",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "4794c35d-01f7-40d4-b951-db2bbbb45bf9",
+                    "name": "Transmitted unicast packets",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "9300f090-9f59-43c2-8368-317240a3a892",
+                    "name": "Name",
+                    "dataType": "STRING",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "e116105f-6cc1-49b3-9aa9-87911ea76b8f",
+                    "name": "Avg Utilization",
+                    "dataType": "DOUBLE",
+                    "type": {
+                        "metric": {
+                            "expression": "avg(var4)",
+                            "variables": [
+                                {
+                                    "name": "var4",
+                                    "value": {
+                                        "propertyId": "375841b4-a120-4847-9ba2-495a10586c46"
+                                    }
+                                }
+                            ],
+                            "window": {
+                                "tumbling": {
+                                    "interval": "15m"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "71b8984c-99b1-4675-a904-154cb4969da9",
+                    "name": "Sum Transmitted octets",
+                    "dataType": "DOUBLE",
+                    "type": {
+                        "metric": {
+                            "expression": "sum(var4)",
+                            "variables": [
+                                {
+                                    "name": "var4",
+                                    "value": {
+                                        "propertyId": "32ee1236-4df7-436f-99ea-96a0619c7c4c"
+                                    }
+                                }
+                            ],
+                            "window": {
+                                "tumbling": {
+                                    "interval": "1d"
+                                }
+                            }
+                        }
+                    }
+                }
+            ],
+            "assetModelCompositeModels": [],
+            "assetModelHierarchies": [],
+            "tags": []
+        },
+        {
+            "assetModelId": "3ccba613-f1bc-4ce5-87ef-b24780ba9967",
+            "assetModelName": "hios-device",
+            "assetModelProperties": [
+                {
+                    "id": "3253698b-511b-433a-9795-24dbaef33b00",
+                    "name": "Name",
+                    "dataType": "STRING",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "d3ebf4d9-6bb5-44d9-a82b-27a06eacbdd6",
+                    "name": "Temperature",
+                    "dataType": "INTEGER",
+                    "unit": "Celsius",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "129c87f5-9813-4295-841e-7d6cb1ee99df",
+                    "name": "Contact Person",
+                    "dataType": "STRING",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "f2f63b12-9af5-4b9d-afcc-1ce38c1854cd",
+                    "name": "Location",
+                    "dataType": "STRING",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "94ee4adb-8b2a-4031-a56d-51c08b774bd1",
+                    "name": "Device Type",
+                    "dataType": "STRING",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "3210a39c-2618-4779-84dc-725f45710561",
+                    "name": "Device Error Reason",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "3ce0d763-c998-49a8-b7c5-b2c6ea5105a0",
+                    "name": "External Non Volatile Memory 1 Status",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "45b58cc6-573f-4b04-b185-d5b29f212855",
+                    "name": "External Non Volatile Memory 2 Status",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "6db2146c-ba91-4702-af3d-cd3f079ace38",
+                    "name": "HiDiscovery Protocol Status",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "6f3d0ec4-1b18-40c7-8ba6-bda7918472d9",
+                    "name": "MRP Ring Redundancy Status",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "699b9332-67fe-45dc-92a1-af1f8c9b8b65",
+                    "name": "Power Supply 1",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "0a726082-3725-4c45-966c-f42e251dfc46",
+                    "name": "Power Supply 2",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "3444d2dd-5d4b-42c8-ace8-290f0bd1d1cc",
+                    "name": "Uptime",
+                    "dataType": "INTEGER",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "70f47d65-13f9-48b8-854d-cb9923ce42e3",
+                    "name": "Backup version",
+                    "dataType": "STRING",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "5a9664c9-3723-4e80-9562-b6b58515681e",
+                    "name": "Bootcode",
+                    "dataType": "STRING",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "a627125b-9403-4866-8b09-e0c79a26a69e",
+                    "name": "Running version",
+                    "dataType": "STRING",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "f70c17d0-cc5f-4c39-8bcc-5671df2542ba",
+                    "name": "Stored version",
+                    "dataType": "STRING",
+                    "type": {
+                        "measurement": {}
+                    }
+                },
+                {
+                    "id": "b819011a-aeb9-41e5-aa3b-0c9b6aeee546",
+                    "name": "Up",
+                    "dataType": "DOUBLE",
+                    "unit": "days",
+                    "type": {
+                        "transform": {
+                            "expression": "var0/8640000",
+                            "variables": [
+                                {
+                                    "name": "var0",
+                                    "value": {
+                                        "propertyId": "3444d2dd-5d4b-42c8-ace8-290f0bd1d1cc"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "f91f1f6d-1eb7-4e05-ba9c-73644c3c6289",
+                    "name": "Average Temperature",
+                    "dataType": "DOUBLE",
+                    "type": {
+                        "metric": {
+                            "expression": "avg(var4)",
+                            "variables": [
+                                {
+                                    "name": "var4",
+                                    "value": {
+                                        "propertyId": "d3ebf4d9-6bb5-44d9-a82b-27a06eacbdd6"
+                                    }
+                                }
+                            ],
+                            "window": {
+                                "tumbling": {
+                                    "interval": "1h"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "22dd6800-23fd-4946-9b6a-cd95c1a6a20b",
+                    "name": "Avg Utilization on All ports",
+                    "dataType": "DOUBLE",
+                    "type": {
+                        "metric": {
+                            "expression": "avg(var4)",
+                            "variables": [
+                                {
+                                    "name": "var4",
+                                    "value": {
+                                        "propertyId": "e116105f-6cc1-49b3-9aa9-87911ea76b8f",
+                                        "hierarchyId": "2ddb14f8-1f48-40d9-ab91-a74d8b5fa6e9"
+                                    }
+                                }
+                            ],
+                            "window": {
+                                "tumbling": {
+                                    "interval": "15m"
+                                }
+                            }
+                        }
+                    }
+                }
+            ],
+            "assetModelCompositeModels": [],
+            "assetModelHierarchies": [
+                {
+                    "id": "2ddb14f8-1f48-40d9-ab91-a74d8b5fa6e9",
+                    "name": "Ports",
+                    "childAssetModelId": "87689da0-6b15-4f35-affa-5a26e0f1201f"
+                }
+            ],
+            "tags": []
+        },
+        {
+            "assetModelId": "00235f0e-8b4a-4597-bae5-fab7f632ebde",
+            "assetModelName": "Network",
+            "assetModelProperties": [
+                {
+                    "id": "3eb730dc-b98d-41ee-988e-57fb955d869d",
+                    "name": "Average Temperature",
+                    "dataType": "DOUBLE",
+                    "type": {
+                        "metric": {
+                            "expression": "avg(var4)",
+                            "variables": [
+                                {
+                                    "name": "var4",
+                                    "value": {
+                                        "propertyId": "f91f1f6d-1eb7-4e05-ba9c-73644c3c6289",
+                                        "hierarchyId": "934f797e-6401-459e-a8d0-cb65f531ab2a"
+                                    }
+                                }
+                            ],
+                            "window": {
+                                "tumbling": {
+                                    "interval": "1h"
+                                }
+                            }
+                        }
+                    }
+                }
+            ],
+            "assetModelCompositeModels": [],
+            "assetModelHierarchies": [
+                {
+                    "id": "934f797e-6401-459e-a8d0-cb65f531ab2a",
+                    "name": "Switches",
+                    "childAssetModelId": "3ccba613-f1bc-4ce5-87ef-b24780ba9967"
+                }
+            ],
+            "tags": []
+        }
+    ]
+}
